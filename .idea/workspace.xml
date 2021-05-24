@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbb05cab-f1bf-472c-959f-06a20dce9bc6" name="Default Changelist" comment="" />
+    <list default="true" id="dbb05cab-f1bf-472c-959f-06a20dce9bc6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WriteTitlesFromSS.py" beforeDir="false" afterPath="$PROJECT_DIR$/WriteTitlesFromSS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getIIDFromISBN.py" beforeDir="false" afterPath="$PROJECT_DIR$/getIIDFromISBN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getSSfromIID.py" beforeDir="false" afterPath="$PROJECT_DIR$/getSSfromIID.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getVisited_Title_And_ISBN_And_ssSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/getVisited_Title_And_ISBN_And_ssSet.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getIIDFromISBN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="483">
+              <caret line="25" column="29" selection-end-line="52" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -25,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getSSfromIID.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-426">
-              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="15" />
+            <state relative-caret-position="105">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -34,7 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Failed_getBookmarksFromSS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="126">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -45,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getVisited_Title_And_ISBN_And_ssSet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state relative-caret-position="1659">
+              <caret line="90" column="32" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -57,11 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WriteTitlesFromSS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="18" column="22" lean-forward="true" selection-end-line="58" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#72#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="160">
+              <caret line="40" column="39" selection-end-line="60" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -75,16 +80,29 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Not</find>
+      <find>assert</find>
+      <find>assert</find>
+      <find>assert is</find>
+      <find>ssList</find>
+      <find>requests</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Writer_BooksAndIDs.py" />
-        <option value="$PROJECT_DIR$/getIIDFromISBN.py" />
         <option value="$PROJECT_DIR$/getBookmarksFromSS.py" />
         <option value="$PROJECT_DIR$/getHistoryTitleAndISBN.py" />
-        <option value="$PROJECT_DIR$/getSSfromIID.py" />
         <option value="$PROJECT_DIR$/getVisitedTitleAndISBN.py" />
+        <option value="$PROJECT_DIR$/getSSfromIID.py" />
         <option value="$PROJECT_DIR$/getVisited_Title_And_ISBN_And_ssSet.py" />
+        <option value="$PROJECT_DIR$/getIIDFromISBN.py" />
         <option value="$PROJECT_DIR$/WriteTitlesFromSS.py" />
       </list>
     </option>
@@ -104,8 +122,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="mamo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mamo" type="462c0819:PsiDirectoryNode" />
+              <item name="GetPackOf_Booktitles_And_ISBN_FromSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GetPackOf_Booktitles_And_ISBN_FromSS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -115,7 +133,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -221,12 +241,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="getVisited_Title_And_ISBN_And_ssSet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mamo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getVisited_Title_And_ISBN_And_ssSet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.WriteTitlesFromSS" />
+        <item itemvalue="Python.getVisited_Title_And_ISBN_And_ssSet" />
+        <item itemvalue="Python.getIIDFromISBN" />
         <item itemvalue="Python.getVisitedTitleAndISBN" />
         <item itemvalue="Python.getSSfromIID" />
-        <item itemvalue="Python.getIIDFromISBN" />
       </list>
     </recent_temporary>
   </component>
@@ -243,22 +286,24 @@
       <workItem from="1596467545393" duration="3377000" />
       <workItem from="1596518871047" duration="2990000" />
       <workItem from="1596521892389" duration="3460000" />
+      <workItem from="1596532125850" duration="7540000" />
+      <workItem from="1596704460082" duration="23000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9827000" />
+    <option name="totallyTimeSpent" value="17390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25775978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33130905" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32882884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32882884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,14 +350,17 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mamo$getSSfromIID.coverage" NAME="getSSfromIID Coverage Results" MODIFIED="1596470494371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mamo$WriteTitlesFromSS.coverage" NAME="WriteTitlesFromSS Coverage Results" MODIFIED="1596525364411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GetPackOf_Booktitles_And_ISBN_FromSS$getIIDFromISBN.coverage" NAME="getIIDFromISBN Coverage Results" MODIFIED="1596533268311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mamo$getVisitedTitleAndISBN.coverage" NAME="getVisitedTitleAndISBN Coverage Results" MODIFIED="1596523674124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mamo$getIIDFromISBN.coverage" NAME="getIIDFromISBN Coverage Results" MODIFIED="1596470109528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GetPackOf_Booktitles_And_ISBN_FromSS$WriteTitlesFromSS.coverage" NAME="WriteTitlesFromSS Coverage Results" MODIFIED="1596538357491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GetPackOf_Booktitles_And_ISBN_FromSS$getVisited_Title_And_ISBN_And_ssSet.coverage" NAME="getVisited_Title_And_ISBN_And_ssSet Coverage Results" MODIFIED="1596533664290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/getIIDFromISBN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="483">
+          <caret line="25" column="29" selection-end-line="52" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -321,14 +369,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/getSSfromIID.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-426">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="15" />
+        <state relative-caret-position="105">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Failed_getBookmarksFromSS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="126">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
@@ -337,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/getVisited_Title_And_ISBN_And_ssSet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="1659">
+          <caret line="90" column="32" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
@@ -347,11 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WriteTitlesFromSS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="22" lean-forward="true" selection-end-line="58" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#72#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="40" column="39" selection-end-line="60" selection-end-column="10" />
         </state>
       </provider>
     </entry>

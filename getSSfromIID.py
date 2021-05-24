@@ -25,13 +25,16 @@ def isValid_ss(some_ss_str):
 
 
 def get_ss_list_from_iid_list(some_iid_list):
-    assert some_iid_list!="NIL"
+    # assert some_iid_list!="NIL"
+    if some_iid_list=="NIL":
+        ss_list=['']
+        return ss_list
     ss_list = []
     for each_iid in some_iid_list:
         ss_str = get_ss_str(each_iid)
         if isValid_ss(ss_str):
             ss_list.append(ss_str)
-    print("SS List", ss_list)
+    # print("SS List", ss_list)
     return ss_list
 
 

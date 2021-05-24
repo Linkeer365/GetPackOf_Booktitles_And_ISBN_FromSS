@@ -1,5 +1,6 @@
 import requests
 from lxml import etree
+from time import sleep
 
 headers={
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"
@@ -11,16 +12,18 @@ def is_isbn(some_str):
 
 def get_iid_from_link(some_iid_link):
     iid=some_iid_link.rsplit("?iid=",maxsplit=1)[1]
-    print("IID is:\t{}".format(iid))
+    # print("IID is:\t{}".format(iid))
     return iid
 
 
 def get_iids_from_isbn(some_isbn):
     assert is_isbn(some_isbn)
+    if not is_isbn(some_isbn):
+        return [""]
     url_with_isbn=url_feed_isbn.format(some_isbn)
     url_text=requests.get(url_with_isbn,headers=headers).text
+    sleep(2)
     html=etree.HTML(url_text)
-
     pattern_NotFound="//div[@style='font-size:13px; line-height:24px;']"
     pattern_iidLink="//img[@height=110]//@src"
     fields_NotFound=html.xpath(pattern_NotFound)

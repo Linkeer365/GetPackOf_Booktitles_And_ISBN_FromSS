@@ -11,6 +11,9 @@ from lxml import etree
 
 from time import sleep
 
+tmp_pack_dir=r"D:\AllDowns\upload_results"
+tmp_pack_path=r"D:\AllDowns\upload_results\Tmp Books And IDs.txt"
+
 headers={
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"
 }
@@ -77,6 +80,12 @@ def getPack_title_isbn_ssSet(douban_url):
     print("IIDs:",iids)
     print("ssList:",ss_list)
     print("\n& End &\n")
+
+    title_with2isbn="{}isbnisbn{}".format(title,isbn)
+    one_line="{}\t{}\n".format(title_with2isbn,isbn)
+
+    with open(tmp_pack_path,"a",encoding="utf-8") as f:
+        f.write(one_line)
 
     pack_title_isbn_ssSet = (title, isbn, set(ss_list))
     return pack_title_isbn_ssSet
